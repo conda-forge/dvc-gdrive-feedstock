@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.8
     - dvc
-    - pydrive2 >=1.14.0
+    - pydrive2 >=1.16.0
 
 test:
   imports:
