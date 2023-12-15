@@ -1,5 +1,5 @@
 {% set name = "dvc-gdrive" %}
-{% set version = "2.20.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3bc75909a6094731d9b154b5b1f98f17f9abc217697497f5c3b9dd11eb3f038f
+  sha256: 9334f9153530eb4ebc9b59ce9738cd592c5506999e4d2372df3dab733d279d96
 
 build:
   noarch: python
